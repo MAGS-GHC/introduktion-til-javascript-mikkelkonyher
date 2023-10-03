@@ -9,5 +9,7 @@ console.log("Opgave 1.2 - Lav et program, som skriver “Hello” og på næste 
 console.log("hello  \n world");
 console.log ("Opgave 1.3");
 console.log("*\n **\n ***\n **\n*");
+console.log("opgave 1.4");
+let catName = "mysa"; // string
 
 
