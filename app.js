@@ -10,7 +10,8 @@ console.log("hello  \n world");
 console.log ("Opgave 1.3");
 console.log("*\n **\n ***\n **\n*");
 console.log("opgave 1.4 ");
-const catName = "mysa"; // string
+const catName = "mysa";
+typeof 'mysa';
 console.log("Opgave 1.5");
 console.log(10-5);
 console.log(25/3);
@@ -22,6 +23,18 @@ let tekst1 = ("hello");
 let tekst2 = ("World!");
 console.log(tekst1+tekst2);
 console.log("opgave 1.7");
+const hold = 'GF2 Online';
+console.log(hold.length);
 console.log("Opgave 1.8");
 let x = Math.random();
 console.log(x);
+let number = 23;
+console.log(number)
+console.log (number = "23")
+console.log(number == "23")
+console.log(number === "23")
+console.log(number += "23")
+console.log(number -= "23")
+console.log(number != "23")
+console.log(number **= 2)
+
