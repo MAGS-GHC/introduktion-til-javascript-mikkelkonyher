@@ -63,4 +63,16 @@ if(tal2 % 5==0){
   console.log ("går ikke op i")  //The number is odd
   }
   console.log("Opgave 2.2");
+
+let randomTal = Math.floor(Math.random()*100+1)
+console.log(randomTal);
+if(randomTal % 5==0){
+   
+  console.log(" går op i")  //The number is even
+  }
+  else {
+    
+  console.log ("går ikke op i")  //The number is odd
+  }
+
   
