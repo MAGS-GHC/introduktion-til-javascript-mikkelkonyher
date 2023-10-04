@@ -34,13 +34,33 @@ console.log(number)
 console.log (number = "23")
 console.log(number == "23")
 console.log(number === "23")
+console.log ("strict value");
 console.log(number -= "23")
 console.log(number += "23")
 console.log(number += "23")
 console.log(number -= "46")
 console.log(number != 23)
 console.log(number **= 2)
+console.log("opgave 2.1");
+let tal = 200;
+if(tal % 2==0){
+   
+console.log(" det her tal er lig")  //The number is even
+}
+else {
+  
+console.log ("Det her tal er ulig")  //The number is odd
+}
+console.log("2.2");
+let tal2 = 27;
 
-
-
-
+if(tal2 % 5==0){
+   
+  console.log(" går op i")  //The number is even
+  }
+  else {
+    
+  console.log ("går ikke op i")  //The number is odd
+  }
+  console.log("Opgave 2.2");
+  
