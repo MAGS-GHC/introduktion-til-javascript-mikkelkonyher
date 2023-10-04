@@ -51,7 +51,7 @@ else {
   
 console.log ("Det her tal er ulig")  //The number is odd
 }
-console.log("2.2");
+console.log(" Opgave 2.2");
 let tal2 = 27;
 
 if(tal2 % 5==0){
@@ -61,18 +61,15 @@ if(tal2 % 5==0){
   else {
     
   console.log ("går ikke op i")  //The number is odd
-  }
-  console.log("Opgave 2.2");
+  } 
+  console.log("Opgave 2.3");
 
 let randomTal = Math.floor(Math.random()*100+1)
 console.log(randomTal);
-if(randomTal % 5==0){
-   
-  console.log(" går op i")  //The number is even
+if(randomTal % 5==0){console.log(" går op i")  //The number is even
+  }else {console.log ("går ikke op i")  //The number is odd
   }
-  else {
-    
-  console.log ("går ikke op i")  //The number is odd
-  }
+console.log("Opgave 2.4");
 
-  
+
+
