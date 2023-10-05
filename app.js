@@ -125,9 +125,9 @@ if (dag==1){
 console.log(" Opgave 3.1");
 // 3.1 lav et program der skriver alle 1-100 en efter en
 
-for (let i = 1; i <= 100; i++) {
+for (let i = 1; i <= 100; i++) 
   console.log(i);
-}
+
 
 
 console.log ("Opgave 3.2");
@@ -210,21 +210,19 @@ console.log(byer2);
 console.log("opgave 4.3");
 
 let talRække = [0, 1, 0, 3, 4, 5, 6];
-let førsteNulFundet = false;
-
-for (let i = 0; i < talRække.length; i++) {
-  if (talRække[i] === 0 && !førsteNulFundet) {
-    førsteNulFundet = true;
-  } else if (talRække[i] === 0 && førsteNulFundet) {
-    talRække[i] = 2; 
-  }
-}
-
+talRække [2] = 2
 console.log(talRække);
 
-console.log("Opgave 4.4");
+talRække2 = [1, 2, 3, 4, 11, 55, 99, 100]
+console.log (Math.max(...talRække2));
 
-let talRække2 = [1, 2, 3, 4, 11, 55, 99, 100];
-let størsteVærdi = Math.max(...talRække2);
+console.log ("opgave 4.4");
 
-console.log("Den største værdi i arrayet er: " + størsteVærdi);
+let talrække3 = [0, 12, 0, 22, 300, 4, 5];
+talrække3.sort((a,b)=> a - b);
+console.log(talrække3);
+
+console.log ("Opgave 4.5");
+
+talrække3.reverse();
+console.log(talrække3);
