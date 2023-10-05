@@ -71,5 +71,120 @@ if(randomTal % 5==0){console.log(" går op i")  //The number is even
   }
 console.log("Opgave 2.4");
 
+let a = 25;
+let b = 33;
+let c = 12;
+
+if(a > b && a  > c){
+  console.log("a er størst");
+} else if (b > a && b > c){
+  console.log("b er størst");
+} else {console.log("c er størst");
+}   
+
+
+console.log ("Opgave 2.5");
+
+let temp = 41;
+if(temp <=0){
+  console.log("Det er frostvejr");
+} else if (temp >= 1 && temp <= 10){
+  console.log("Det er meget koldt");
+}  else if (temp >= 11 && temp <= 20){
+  console.log("Det er meget koldt");
+} else if (temp >= 21 && temp <= 30){
+  console.log("Det er normalt vejr");
+} else if (temp >= 31 && temp <= 40){
+  console.log("Det er varmt");
+} else if (temp >=40){
+  console.log("Det er meget varmt");
+}
+
+console.log ("Opgave 2.6")
+
+let dag = 6;
+
+if (dag==1){
+  console.log ("Mandag");
+}else if (dag==2){
+  console.log ("Tirsdag");
+}else if (dag==3){
+  console.log ("Onsdag");
+}else if (dag==4){
+  console.log ("torsdag");
+}else if (dag==5){
+  console.log ("freadag");
+}else if (dag==6){
+  console.log ("lørdag");
+}else if (dag==7){
+  console.log ("søndag");
+} else {
+   console.log ("Dagen er ikke en ugedag"); 
+}
+
+// 3.1 lav et program der skriver alle 1-100 en efter en
+
+for (let i = 1; i <= 100; i++) {
+  console.log(i);
+}
+
+
+
+//Opgave 3.2 Lav et program som skrive alle tal fra 1 til 100, på følgende måde
+// O12
+// 345 osv.
+
+let line = '';
+
+for (let i = 1; i <= 100; i++) {
+  line += i + ' ';
+
+ 
+  if (i % 3 === 0) {
+    console.log(line);
+    line = '';
+  }
+}
+
+// Opgave 3.3 lav spillet fizzbuzz
+
+// for-loop
+
+for (let i = 1; i <= 100; i++) {
+  let output = "";
+
+  if (i % 3 === 0) {
+    output += "Fizz";
+  }
+
+  if (i % 5 === 0) {
+    output += "Buzz";
+  }
+
+  console.log(output || i);
+}
+
+console.log("While-Loop");
+
+
+let i = 1;
+while (i <= 100) {
+  let output = "";
+
+  if (i % 3 === 0) {
+    output += "Fizz";
+  }
+
+  if (i % 5 === 0) {
+    output += "Buzz";
+  }
+
+  console.log(output || i);
+  i++;
+}
+
+
+
+
 
 
