@@ -125,8 +125,10 @@ if (dag==1){
 console.log(" Opgave 3.1");
 // 3.1 lav et program der skriver alle 1-100 en efter en
 
-for (let i = 1; i <= 100; i++) 
+for (let i=1; i <=100; i++) {  
   console.log(i);
+
+}
 
 
 
@@ -135,16 +137,9 @@ console.log ("Opgave 3.2");
 // O12
 // 345 osv.
 
-let line = '';
+for (let i=1; i <=100; i++) {  
+  console.log(i+"  "+(i+1)+"  " + (i+2) );
 
-for (let i = 1; i <= 100; i++) {
-  line += i + ' ';
-
- 
-  if (i % 3 === 0) {
-    console.log(line);
-    line = '';
-  }
 }
 
 console.log ("Opgave 3.3");
@@ -153,36 +148,31 @@ console.log ("Opgave 3.3");
 // for-loop
 
 for (let i = 1; i <= 100; i++) {
-  let output = "";
-
-  if (i % 3 === 0) {
-    output += "Fizz";
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 == 0) {
+    console.log("Fizz");
+  } else if (i % 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
   }
-
-  if (i % 5 === 0) {
-    output += "Buzz";
-  }
-
-  console.log(output || i);
 }
 
-console
+// While-loop
 
-let i = 1;
-while (i <= 100) {
-  let output = "";
-
-  if (i % 3 === 0) {
-    output += "Fizz";
+let i = 0
+while(i <100){
+  if (i % 3 == 0 && i % 5 == 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 == 0) {
+    console.log("Fizz");
+  } else if (i % 5 == 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
   }
-
-  if (i % 5 === 0) {
-    output += "Buzz";
-  }
-
-  console.log(output || i);
-  i++;
-}
+}  
 
 console.log ("opgave 3.4");
 
