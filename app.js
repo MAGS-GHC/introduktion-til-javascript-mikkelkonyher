@@ -221,3 +221,10 @@ for (let i = 0; i < talRække.length; i++) {
 }
 
 console.log(talRække);
+
+console.log("Opgave 4.4");
+
+let talRække2 = [1, 2, 3, 4, 11, 55, 99, 100];
+let størsteVærdi = Math.max(...talRække2);
+
+console.log("Den største værdi i arrayet er: " + størsteVærdi);
