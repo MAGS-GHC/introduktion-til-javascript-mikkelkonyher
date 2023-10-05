@@ -209,4 +209,15 @@ console.log(byer2);
 
 console.log("opgave 4.3");
 
-let talRække = [0, 1, 0, 3, 4, 5, 6]
+let talRække = [0, 1, 0, 3, 4, 5, 6];
+let førsteNulFundet = false;
+
+for (let i = 0; i < talRække.length; i++) {
+  if (talRække[i] === 0 && !førsteNulFundet) {
+    førsteNulFundet = true;
+  } else if (talRække[i] === 0 && førsteNulFundet) {
+    talRække[i] = 2; 
+  }
+}
+
+console.log(talRække);
