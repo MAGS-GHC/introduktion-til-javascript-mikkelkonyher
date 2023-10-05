@@ -122,6 +122,7 @@ if (dag==1){
    console.log ("Dagen er ikke en ugedag"); 
 }
 
+console.log(" Opgave 3.1");
 // 3.1 lav et program der skriver alle 1-100 en efter en
 
 for (let i = 1; i <= 100; i++) {
@@ -129,7 +130,7 @@ for (let i = 1; i <= 100; i++) {
 }
 
 
-
+console.log ("Opgave 3.2");
 //Opgave 3.2 Lav et program som skrive alle tal fra 1 til 100, på følgende måde
 // O12
 // 345 osv.
@@ -146,6 +147,7 @@ for (let i = 1; i <= 100; i++) {
   }
 }
 
+console.log ("Opgave 3.3");
 // Opgave 3.3 lav spillet fizzbuzz
 
 // for-loop
@@ -164,8 +166,7 @@ for (let i = 1; i <= 100; i++) {
   console.log(output || i);
 }
 
-console.log("While-Loop");
-
+console
 
 let i = 1;
 while (i <= 100) {
@@ -183,8 +184,29 @@ while (i <= 100) {
   i++;
 }
 
+console.log ("opgave 3.4");
+
+console.log ("Opgave 3.5");
 
 
 
 
 
+
+console.log ( "ARRAYS");
+
+console.log ("Opgave 4.1");
+
+let byer = ["Randers", "Viborg", "Århus", "København"];
+console.log(byer[1]);
+
+
+console.log ("Opgave 4.2");
+
+let byer2 =  ["Randers", "Viborg", "Århus", "København"];
+byer2.push("Skive");
+console.log(byer2);
+
+console.log("opgave 4.3");
+
+let talRække = [0, 1, 0, 3, 4, 5, 6]
