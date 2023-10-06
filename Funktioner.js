@@ -2,7 +2,7 @@ console.log ("FUNKTIONER")
 console.log ("Opgave 5.1");
 
 function myFunction() {
-    console.log("Hello World")
+    console.log("Hello Universe")
    }
 
 console.log ("Opgave 5.2");
@@ -58,9 +58,19 @@ function passwordChecker (inputPassword) {
         console.log (false);
     }
 
+console.log ("Opgave 5.5");
 
+function erBrugerNavnKorrekt (inputBrugernavn, gemtBrugernavn){
+    return inputBrugernavn.toLowerCase() === gemtBrugernavn.toLowerCase();
+}
 
+const gemtBrugernavn = "Mikkelkonyher";
+const inputBrugernavn = prompt("Login med brugernavn: ");
 
-
+if (erBrugerNavnKorrekt (inputBrugernavn, gemtBrugernavn)) {
+    console.log(true);
+}else {
+    console.log(false);
+}
 
 
