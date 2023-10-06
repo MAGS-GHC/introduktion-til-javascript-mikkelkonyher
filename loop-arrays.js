@@ -12,3 +12,8 @@ console.log("Summen er: " + sum);
 
 console.log ("Opgave 6.2");
 
+const talRække5 = [0, 12, 0, 22, 300, 4, 5];
+
+talRække5.forEach(function(element) {
+    console.log(element);
+});
