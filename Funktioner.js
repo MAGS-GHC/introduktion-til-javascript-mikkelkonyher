@@ -19,6 +19,19 @@ console.log(sum1);
 
 console.log(sum2);
 
+console.log ("Opgave 5.3")
 
+function isJa (inputTekst){
+    return inputTekst ==="Ja";
+}
+
+let inputTekst = prompt("Ja eller nej Kaj?"); // Brug prompt til at få brugerens input
+let resultat = isJa(inputTekst);
+
+if (resultat) {
+    console.log("True");
+} else {
+    console.log("false");
+}
 
 
