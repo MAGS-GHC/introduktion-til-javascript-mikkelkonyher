@@ -23,15 +23,44 @@ console.log ("Opgave 5.3")
 
 function isJa (inputTekst){
     return inputTekst ==="Ja";
-}
+    }
+    
+    
+    let inputTekst = prompt("Ja eller nej Kaj?"); //prombt er til brugeres input
+    let resultat = isJa(inputTekst);
+    
+    
+    if (resultat) {
+    console.log(true);
+    } else {
+    console.log(false);
+    }
+    
+console.log ("Opgave 5.4");
 
-let inputTekst = prompt("Ja eller nej Kaj?"); // Brug prompt til at få brugerens input
-let resultat = isJa(inputTekst);
 
-if (resultat) {
-    console.log("True");
-} else {
-    console.log("false");
-}
+function passwordChecker (inputPassword) {
+    const correctPassWord = "GF2 Online";
+    if(inputPassword === correctPassWord) {
+        return true;
+    } else {
+        console.log(false);
+        }
+
+    } 
+    
+    const indtastKode = prompt ("Hint - Det er vores Holdnavn")
+    const resultat2 = passwordChecker (indtastKode);
+
+    if (resultat) {
+        console.log (true);
+    } else {
+        console.log (false);
+    }
+
+
+
+
+
 
 
