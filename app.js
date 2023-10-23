@@ -206,16 +206,18 @@ let talRække = [0, 1, 0, 3, 4, 5, 6];
 talRække [2] = 2
 console.log(talRække);
 
+console.log("Opgave 4.4")
+
 talRække2 = [1, 2, 3, 4, 11, 55, 99, 100]
 console.log (Math.max(...talRække2));
 
-console.log ("opgave 4.4");
+console.log ("opgave 4.5");
 
 let talrække3 = [0, 12, 0, 22, 300, 4, 5];
 talrække3.sort((a,b)=> a - b);
 console.log(talrække3);
 
-console.log ("Opgave 4.5");
+console.log ("Opgave 4.6");
 
 talrække3.reverse();
 console.log(talrække3);
